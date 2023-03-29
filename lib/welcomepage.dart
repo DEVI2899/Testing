@@ -12,9 +12,9 @@ class Welcomepage extends StatelessWidget {
           children:  [
             Text('Welcome to the dashboard  page',style: TextStyle(fontSize: 30,
             fontWeight: FontWeight.bold),) ,
+
             Text('Inime inge naanga thaan,',style: TextStyle(
-            fontWeight: FontWeight.bold,fontSize: 50
-          ),),
+
             ElevatedButton(onPressed: (){}, child: Text('Try again'))
           ],
         ),
