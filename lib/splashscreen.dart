@@ -12,11 +12,12 @@ class splashscreen extends StatefulWidget {
 }
 
 class _splashscreenState extends State<splashscreen> {
+  @override
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 10), ()
         => Navigator.pushReplacement(context, MaterialPageRoute(builder:
-            (context) => Welcomepage()
+            (context) => const Welcomepage()
         )
         )
     );
