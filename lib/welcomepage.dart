@@ -11,7 +11,10 @@ class Welcomepage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Welcome to the dashboard  page',style: TextStyle(fontSize: 30,
-            fontWeight: FontWeight.bold),)          ],
+            fontWeight: FontWeight.bold),) ,
+          Text('Inime inge naanga thaan,',style: TextStyle(
+            fontWeight: FontWeight.bold,fontSize: 50
+          ),)],
         ),
       ),
     );
