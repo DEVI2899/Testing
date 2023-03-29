@@ -14,7 +14,7 @@ class splashscreen extends StatefulWidget {
 class _splashscreenState extends State<splashscreen> {
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 5), ()
+    Timer(const Duration(seconds: 10), ()
         => Navigator.pushReplacement(context, MaterialPageRoute(builder:
             (context) => Welcomepage()
         )
@@ -23,8 +23,14 @@ class _splashscreenState extends State<splashscreen> {
   }
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('Flutter connection', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Color(0xff010729)),)),
+    return  Scaffold(
+      body: Column(
+        children: [
+          Center(
+              child: Text('Flutter connection', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Color(0xff010729)),)),
+          CircularProgressIndicator(),
+        ],
+      ),
     );
   }
 }
