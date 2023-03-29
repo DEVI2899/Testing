@@ -12,9 +12,9 @@ class Welcomepage extends StatelessWidget {
           children: const [
             Text('Welcome to the dashboard  page',style: TextStyle(fontSize: 30,
             fontWeight: FontWeight.bold),) ,
-          Text('Inime inge naanga thaan also thiru is biggest AB DE VILLIERS Fan in the world!,also he is a david fan,',style: TextStyle(
-            fontWeight: FontWeight.bold,fontSize: 50
-          ),)],
+
+          Text(
+            'Inime inge naanga thaan also thiru is biggest AB DE VILLIERS Fan in the world!,also he is a david fan,')],
         ),
       ),
     );
