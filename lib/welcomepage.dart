@@ -12,7 +12,9 @@ class Welcomepage extends StatelessWidget {
           children:  const [
             Text('Welcome to the dashboard  page',style: TextStyle(fontSize: 30,
             fontWeight: FontWeight.bold),) ,
-            Text('Inime inge naanga thaan,',style: TextStyle(),
+            Text('Yor are now officially a sightspectrum technology solutions,',style: TextStyle(
+              fontSize: 30,fontWeight: FontWeight.bold
+            ),
       ),
    ] )));
   }
