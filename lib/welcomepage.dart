@@ -9,11 +9,10 @@ class Welcomepage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children:  [
+          children:  const [
             Text('Welcome to the dashboard  page',style: TextStyle(fontSize: 30,
             fontWeight: FontWeight.bold),) ,
-
-     Text('Inime inge naanga thaan,',style: TextStyle(),
+            Text('Inime inge naanga thaan,',style: TextStyle(),
       ),
    ] )));
   }
