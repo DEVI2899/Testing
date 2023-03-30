@@ -27,7 +27,7 @@ class _splashscreenState extends State<splashscreen> {
     return  Scaffold(
       backgroundColor: Colors.lightBlueAccent,
       body: Column(
-        children: [
+        children: const [
           Center(
               child: Text('Flutter connection', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Color(0xff010729)),)),
           CircularProgressIndicator(),
